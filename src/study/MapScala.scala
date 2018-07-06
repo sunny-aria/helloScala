@@ -20,7 +20,7 @@ object MapScala {
     println(b.values)
 
     //数组声明方式
-    var z:Array[String] =new Array[String](3)
+    val z:Array[String] =new Array[String](3)
     // var z= new Array[String](3)
     z(0)="a";z(1)="b";z(2)="c";
     //var z=Array("a","b","c")
