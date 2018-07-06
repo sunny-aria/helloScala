@@ -2,7 +2,7 @@ package study
 
 /**
   * object 修饰的类为静态类，
-  * 此例为 伴生类，伴生对象
+  * 此例为 伴生类，伴生对象，单例模式
   */
 object Person {
   private val b:Int=20
