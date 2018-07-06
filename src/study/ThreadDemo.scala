@@ -20,7 +20,7 @@ object ThreadDemo {
     var t3= new demo3(3)
     var t4= new demo3(4)
     t1.start()
-    t1.join()
+    t1.join()//主线程等待t1执行完
     t22.start()
     t3.start()
     t4.start()
