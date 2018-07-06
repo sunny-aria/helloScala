@@ -1,7 +1,7 @@
 package study
 
 /**
-  * map 测试
+  * Map ，Array 测试
   */
 object MapScala {
 

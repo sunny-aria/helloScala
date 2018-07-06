@@ -13,5 +13,6 @@ object Hello {
     println(a)
     println(b)
     println(c)
+    Person.test2()
   }
 }
