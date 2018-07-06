@@ -27,5 +27,17 @@ object MapScala {
     for (x <- z){
       println(x)
     }
+
+    val capitals = Map("France"->"Paris", "Japan"-> "Tokyo")
+
+    println(show(capitals.get("France")))
+    println(show(capitals.get("test")))
   }
+
+  def show(x:Option[String]) = x match{
+    case Some(s) =>s
+    case None => "?"
+  }
+
+
 }
